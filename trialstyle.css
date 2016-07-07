@@ -17,6 +17,7 @@ h1{
 	width: 100%; 
 	text-align: center;
 	padding: 25px 0 20px 0;
+	color: #fff;
 }
 a{
 	text-decoration: none;
@@ -96,6 +97,10 @@ aside{
 	padding: 15px 0 10px 15px;
 	text-align: center;
 	margin:10px 0 20px 10%; 
+	color: white;
+}
+footer a{
+	color: white;
 }
 input[type="text"], input[type="password"]{
 	margin-top: 15px;
