@@ -12,11 +12,11 @@ section{
 	width: 90%
 }
 h1{
-	border:1px solid black;
-	background: #e5e5e5;
+	/*border:1px solid black;*/
+	background: #2a4444;
 	width: 100%; 
 	text-align: center;
-	padding: 15px 0 10px 0;
+	padding: 25px 0 20px 0;
 }
 a{
 	text-decoration: none;
@@ -92,10 +92,10 @@ aside{
 .mainfooter{
 	width: 90%;
 	float: left;
-	background-color: grey;
+	background-color: #2a4444;
 	padding: 15px 0 10px 15px;
 	text-align: center;
-	margin-left: 10%; 
+	margin:10px 0 20px 10%; 
 }
 input[type="text"], input[type="password"]{
 	margin-top: 15px;
