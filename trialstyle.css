@@ -1,0 +1,111 @@
+body{
+	background-color: silver;
+	font-size: 90%;
+	font-family: Arial;
+	text-align: left;
+	margin: 0 auto;
+	width: 95%;
+	padding-left: 2%;
+
+}
+h1{
+	border:1px solid black;
+	background: grey;
+	width: 90%; 
+	text-align: center;
+	padding: 15px 0 10px 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.mainheader{
+	padding-left: 10%;
+}
+.mainheader img{
+	background: #fff;
+	text-align: center;
+	margin:  10px 0 10px 0;
+	width: 90%;
+    height: 360px;
+
+}
+.maincontent{
+	padding-left: 6%;
+	float:left;
+	width: 63%;
+}
+.topcontent, .secondcontent, .thirdcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	margin: 10px 10px 0 0;
+	width: 205px;
+	float: right;
+	text-align: center;
+	padding: 5px;
+}
+h2{
+	background-color: grey;
+	padding: 19px;
+	position: relative;
+}
+
+.navigation nav{
+	background-color: #fff;
+	height: 50px;
+	border-radius: 5px;
+	width: 90%;
+	padding: 10px 0 15px 0;
+}
+.navigation nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+.navigation nav ul li{
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	text-align: center;
+	margin-top: 15px;
+}
+aside{
+	float: absolute;
+	margin-bottom: 1%;
+}
+.mainfooter{
+	width: 58%;
+	float: left;
+	background-color: grey;
+	padding: 15px 0 10px 15px;
+	text-align: center;
+	margin-left: 10%; 
+}
+.form label{
+	float: left;
+	width: 65px;
+}
+@media screen and (max-width: 800px){
+
+	.maincontent{
+		columns: 1;
+		width: 90%;
+	}
+	.mainheader img{
+		width: 90%;
+	}
+	h1{
+		width: 90%; 
+	}
+	.navigation nav{
+	width: 90%;
+	}
+	aside{
+	width: 92 %;
+	}
+	.mainfooter{
+	width: 80%;
+	}
+	.form label{
+	width: 90%;
+}
+}
