@@ -1,0 +1,104 @@
+body{
+	background-color: grey;
+	width: 100%;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	line-height: 125px;
+
+}
+.mainheader{
+	width: 18%;
+	background-color: #fff;
+	float: right;
+	margin-right: 40%;
+	margin-top: 80px;
+	border-radius: 10px;
+}
+.header{
+	color: white;
+	background-color: #00e0de;
+	text-align: center;
+	
+}
+.forgot a {
+	color: #102fd2;
+}
+.forgot{
+	font-size: 0.8em;
+	margin-left: 65%;
+	margin-top: 10px;
+}
+input[type="text"], input[type="password"]{
+	height: 30px;
+	width: 88%;
+	border-radius: 5px;
+	border: 1px solid #c5c5c5;
+	padding-left: 10px;
+	margin-left: 4%;
+}
+input[type="password"]{
+	margin-top: 17px;
+}
+input[type="submit"]{
+	background-color: #00e0de;
+	margin-left: 4%;
+	margin-top: 15px;
+	width: 91%;
+	line-height: 20px;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 0;
+	color: white;
+}
+hr{
+	margin: 17px 17px;
+}
+.social-net {
+	padding-left: 11%;
+	font-size: 0.9em;
+}
+.facebook,.twitter{
+	width: 30%;
+	background-color: #5484c7;
+	line-height: 34px;
+	padding-left: 9px;
+	border-radius: 5px;
+}
+.facebook a, .twitter a{
+	color: white;
+	font-size: 1em;
+}
+.twitter{
+	float: right;
+	margin-right: 17%;
+}
+.facebook{
+	float: left;
+	margin-left: 17%;
+}
+.twitter{
+	background-color: #00e0de;
+}
+.twitter:hover{
+	background-color: #11bbb1;
+}
+.facebook:hover{
+	background-color: #2a7aea;
+}
+.new-acc{
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+}
+@media screen and (max-width:1366px){
+	.mainheader{
+		width: 49%;
+	}
+	.forgot{
+		width: 20%;
+	}
+}
