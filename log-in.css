@@ -8,7 +8,6 @@ a{
 }
 h1{
 	line-height: 125px;
-
 }
 .mainheader{
 	width: 18%;
@@ -17,6 +16,7 @@ h1{
 	margin-right: 40%;
 	margin-top: 80px;
 	border-radius: 10px;
+	padding-bottom: 
 }
 .header{
 	color: white;
@@ -25,7 +25,7 @@ h1{
 	
 }
 .forgot a {
-	color: #102fd2;
+	color: #407bab;
 }
 .forgot{
 	font-size: 0.8em;
@@ -94,11 +94,33 @@ hr{
 	text-align: center;
 	padding-top: 25px;
 }
-@media screen and (max-width:1366px){
+.link-social a{
+	color: #407bab
+}
+	 /*Phone Screen*/
+
+@media screen and (max-width:1300px){
 	.mainheader{
-		width: 49%;
+		width: 24%;
 	}
-	.forgot{
-		width: 20%;
+	.forgot a{
+		width: 40%;
+		padding-right: 10px;
+	}
+	.facebook,.twitter{
+		width: 45%;
+		margin-top: 10px;
+	}
+	.facebook{
+		float: left;
+		margin-left: 28%;
+	}
+	.twitter{
+		float: right;
+		margin-right: 24%;
+	}
+	.new-acc{
+		width: 100%;
+		padding-top: 40%;
 	}
 }
